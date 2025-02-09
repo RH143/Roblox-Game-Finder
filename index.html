@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <title>Roblox Game Finder</title>
+</head>
+
+<style>
+
+* {
+
+    background-color: #121215;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navBar {
+
+    background-color: #191A1F;
+    width: 1920px;
+    height: 43px;
+
+}
+
+#sideNavBar {
+
+    position: absolute;
+    top: 4.13%;
+    background-color: #191A1F;
+    width: 175px;
+    height: 900px;
+
+}   
+
+#logo {
+
+        cursor: pointer;
+        position: absolute;
+        top: 0.5%;
+        left: 0.5%;
+
+}
+
+#charts {
+
+    cursor: pointer;
+    color: white;
+    font-weight: 450;
+    background-color: transparent;
+    font-family: "Roboto", serif;
+    font-size: 17px;
+    position: absolute;
+    top: 1.3%;
+    left: 13%;
+
+}
+
+#marketplace {
+
+    cursor: pointer;
+    color: white;
+    font-weight: 450;
+    background-color: transparent;
+    font-family: "Roboto", serif;
+    font-size: 17px;
+    position: absolute;
+    top: 1.3%;
+    left: 21%;
+
+}
+
+#create {
+
+    cursor: pointer;
+    color: white;
+    font-weight: 450;
+    background-color: transparent;
+    font-family: "Roboto", serif;
+    font-size: 17px;
+    position: absolute;
+    top: 1.3%;
+    left: 31%;
+
+}
+
+#robux {
+
+    cursor: pointer;
+    color: white;
+    font-weight: 450;
+    background-color: transparent;
+    font-family: "Roboto", serif;
+    font-size: 17px;
+    position: absolute;
+    top: 1.3%;
+    left: 39%;
+
+}  
+
+#search {
+
+    width: 450px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #212227;
+    color: white;
+    border-color: rgba(255, 255, 255, 0.113);
+    position: absolute;
+    top: 0.5%;
+    left: 44%;
+
+}
+
+#list {
+
+    cursor: pointer;
+    position: absolute;
+    top: 6%;
+    left: 3%;
+
+}
+
+#gameFinder {
+
+    color: white;
+    font-weight: 1000;
+    background-color: transparent;
+    font-family: "Roboto", serif;
+    position: absolute;
+    top: 10%;
+    left: 13%;
+
+}
+
+#horrorTitle {
+
+    color: white;
+    font-weight: 600;
+    background-color: transparent;
+    font-family: "Roboto", serif;
+    text-decoration: underline;
+    position: absolute;
+    top: 30%;
+    left: 13%;
+
+}
+
+#info {
+
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: transparent;
+    font-family: "Roboto", serif;
+    position: absolute;
+    top: 15%;
+    left: 13%;
+
+}
+
+#doors {
+
+    cursor: pointer;
+    border-radius: 10%;
+    position: absolute;
+    top: 37%;
+    left: 12.2%;
+    width: 13%;
+
+}
+
+#fnaf {
+
+    cursor: pointer;
+    border-radius: 10%;
+    position: absolute;
+    top: 37%;
+    left: 30%;
+    width: 13%;
+
+}
+
+#natural {
+
+    cursor: pointer;
+    border-radius: 10%;
+    position: absolute;
+    top: 37%;
+    left: 48%;
+    width: 13%;
+
+}
+
+#shrimp {
+
+    cursor: pointer;
+    border-radius: 10%;
+    position: absolute;
+    top: 37%;
+    left: 66%;
+    width: 13%;
+
+}
+
+#ex {
+
+    cursor: pointer;
+    border-radius: 10%;
+    position: absolute;
+    top: 37%;
+    left: 84%;
+    width: 13%;
+
+}
+
+</style>
+
+<body>
+
+    <h1 id="gameFinder">Game Finder</h1>
+    <h1 id="info">To get started, search for a game genre (eg horror) above. Some examples are below.</h1>
+
+
+    <h1 id="horrorTitle">Favourites</h1>
+    <a href="https://www.roblox.com/games/6516141723/DOORS">
+    <img id="doors" src="doors.png"></img>
+    </a>
+
+    <a href="https://www.roblox.com/games/12495498157/FNAF-Co-op">
+    <img id="fnaf" src="fnaf.png"></img>
+    </a>
+
+    <a href="https://www.roblox.com/games/189707/Natural-Disaster-Survival">
+    <img id="natural" src="natural.png"></img>
+    </a>
+
+    <a href="https://www.roblox.com/games/7606564092/Shrimp-Game">
+    <img id="shrimp" src="shrimp.png"></img>
+    </a>
+
+    <a href="https://www.roblox.com/games/2693023319/Expedition-Antarctica">
+    <img id="ex" src="ex.png"></img>
+    </a>
+
+    <div id="navBar">
+        
+        <img id="logo" src="logo.png"></img>
+
+            <a href="https://www.roblox.com/charts">
+            <h2 id="charts">Charts</h2>
+            </a>
+            <a href="https://www.roblox.com/catalog">
+            <h2 id="marketplace">Marketplace</h2>
+            </a>
+            <a href="https://create.roblox.com/">
+            <h2 id="create">Create</h2>
+            </a>
+            <a href="https://www.roblox.com/upgrades/robux?ctx=navpopover">
+            <h2 id="robux">Robux</h2>
+            </a>
+
+            <input placeholder="Search for a Genre" id="search"></input>
+
+    </div>
+
+    <div id="sideNavBar">
+
+        <img id="list" src="list.png"></img>
+
+    </div>
+    
+</body>
+
+<script>
+
+var textInput = document.getElementById('search');
+
+textInput. addEventListener('keydown', (event) => {
+    if (event. key === 'Enter') {
+
+        if(textInput.value == 'horror'|| textInput.value == 'Horror'){
+
+            alert("worked");
+
+        }
+
+    }
+});
+
+
+</script>
+
+</html>
